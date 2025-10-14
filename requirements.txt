@@ -1,0 +1,8 @@
+jupyter
+nbformat
+nbconvert
+torch
+torchvision
+timm
+matplotlib
+numpy
