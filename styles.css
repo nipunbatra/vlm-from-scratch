@@ -1,0 +1,45 @@
+/* Custom styles for the Quarto website */
+
+:root {
+  --main-color: #2c3e50;
+  --accent-color: #3498db;
+}
+
+/* Improve code block appearance */
+pre {
+  border-radius: 8px;
+  border: 1px solid #e1e4e8;
+}
+
+/* Style notebook outputs */
+.cell-output {
+  margin-top: 1rem;
+}
+
+/* Improve navigation */
+.navbar-brand {
+  font-weight: 600;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Better spacing for sections */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Style the home page cards */
+.card {
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}

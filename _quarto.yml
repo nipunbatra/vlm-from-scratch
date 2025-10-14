@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Vision Language Models from Scratch"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Notebooks"
+        menu:
+          - text: "ViT Usage"
+            href: vision-transformer-usage.ipynb
+          - text: "ViT from Scratch"
+            href: vision-transformer-scratch.ipynb
+  page-footer:
+    center: "Built with Quarto"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-fold: false
+    code-tools: true
+    code-copy: true
+    number-sections: false
+    anchor-sections: true
+    smooth-scroll: true
+
+execute:
+  freeze: auto
+  cache: false

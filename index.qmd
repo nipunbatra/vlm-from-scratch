@@ -1,0 +1,69 @@
+---
+title: "Vision Language Models from Scratch"
+subtitle: "Educational tutorials on building and understanding Vision Transformers"
+---
+
+## Welcome
+
+This website contains educational notebooks that teach you how Vision Transformers (ViT) work, from high-level usage to implementation details.
+
+## Notebooks
+
+### [Vision Transformer Usage](vision-transformer-usage.ipynb)
+
+Learn how to use a pre-trained Vision Transformer for image classification. This notebook covers:
+
+- Loading a pre-trained ViT model
+- Understanding the forward pass step-by-step
+- The role of the CLS token
+- Making predictions on CIFAR-10
+
+**Level:** Beginner
+**Time:** 15-20 minutes
+
+---
+
+### [Vision Transformer from Scratch](vision-transformer-scratch.ipynb)
+
+Build a Vision Transformer from the ground up in PyTorch. This notebook covers:
+
+- Implementing patch embeddings
+- Building transformer encoder blocks
+- Creating the complete ViT architecture
+- Training on custom datasets
+
+**Level:** Intermediate
+**Time:** 30-45 minutes
+
+---
+
+## Prerequisites
+
+All notebooks require:
+
+- Python 3.8+
+- PyTorch
+- torchvision
+- timm (for pre-trained models)
+- matplotlib
+
+Install dependencies:
+
+```bash
+pip install torch torchvision timm matplotlib
+```
+
+## About
+
+These notebooks are designed to be educational and hands-on. Each tutorial builds your understanding progressively, from using pre-trained models to implementing architectures from scratch.
+
+**Goals:**
+
+- Understand how Vision Transformers process images
+- Learn the role of the CLS token in classification
+- Build intuition for self-attention in vision tasks
+- Implement ViT components yourself
+
+---
+
+*Happy learning!*
