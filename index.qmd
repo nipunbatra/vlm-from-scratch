@@ -7,33 +7,86 @@ subtitle: "Educational tutorials on building and understanding Vision Transforme
 
 This website contains educational notebooks that teach you how Vision Transformers (ViT) work, from high-level usage to implementation details.
 
-## Notebooks
+## Learning Path
 
-### [Vision Transformer Usage](vision-transformer-usage.ipynb)
+This series of notebooks takes you on a journey from using Vision Transformers to implementing advanced self-supervised learning techniques. Follow them in order for the best learning experience.
 
-Learn how to use a pre-trained Vision Transformer for image classification. This notebook covers:
+---
 
-- Loading a pre-trained ViT model
-- Understanding the forward pass step-by-step
-- The role of the CLS token
-- Making predictions on CIFAR-10
+### 1. [Vision Transformer Usage](vision-transformer-usage.ipynb)
+
+**Start here!** Learn how to use a pre-trained Vision Transformer for image classification.
+
+**Topics:**
+- Loading and using pre-trained ViT models (timm library)
+- Understanding model architecture (patches, embeddings, attention heads)
+- Fine-tuning ViT on CIFAR-10
+- Visualizing predictions and confusion matrices
+
+**Level:** Beginner
+**Time:** 20-30 minutes
+
+---
+
+### 2. [Create Segmentation Dataset](create-segmentation-dataset.ipynb)
+
+Build a custom synthetic dataset for segmentation tasks.
+
+**Topics:**
+- Creating programmatic datasets with shapes
+- Generating image-mask pairs
+- Saving and loading datasets from disk
+- Dataset design for segmentation
 
 **Level:** Beginner
 **Time:** 15-20 minutes
 
 ---
 
-### [Vision Transformer from Scratch](vision-transformer-scratch.ipynb)
+### 3. [ViT Segmentation](vision-transformer-segmentation.ipynb)
 
-Build a Vision Transformer from the ground up in PyTorch. This notebook covers:
+Adapt Vision Transformers for pixel-level segmentation tasks.
 
-- Implementing patch embeddings
-- Building transformer encoder blocks
-- Creating the complete ViT architecture
-- Training on custom datasets
+**Topics:**
+- Modifying ViT for dense prediction (segmentation)
+- Building decoder heads for patch-to-pixel upsampling
+- Training on custom segmentation datasets
+- Evaluating with IoU metrics
 
 **Level:** Intermediate
-**Time:** 30-45 minutes
+**Time:** 30-40 minutes
+
+---
+
+### 4. [Vision Transformer from Scratch](vision-transformer-scratch.ipynb)
+
+Build a complete Vision Transformer from the ground up in PyTorch.
+
+**Topics:**
+- Implementing patch embedding from scratch
+- Building self-attention mechanisms (single-head and multi-head)
+- Adding residual connections and layer normalization
+- Complete ViT architecture implementation
+- Training and evaluation on CIFAR-10
+
+**Level:** Intermediate to Advanced
+**Time:** 45-60 minutes
+
+---
+
+### 5. [Masked Dataset & Autoencoder](masked-dataset.ipynb)
+
+**Coming next: MAE (Masked Autoencoder)** - Prepare for self-supervised pre-training.
+
+**Topics:**
+- Creating masked image datasets (75% masking)
+- Building convolutional autoencoders
+- Skip connections (U-Net style)
+- Reconstruction loss and training
+- *Next step: Implement MAE with Vision Transformers*
+
+**Level:** Advanced
+**Time:** 25-35 minutes
 
 ---
 

@@ -10,10 +10,16 @@ website:
         href: index.qmd
       - text: "Notebooks"
         menu:
-          - text: "ViT Usage"
+          - text: "1. ViT Usage"
             href: vision-transformer-usage.ipynb
-          - text: "ViT from Scratch"
+          - text: "2. Create Segmentation Dataset"
+            href: create-segmentation-dataset.ipynb
+          - text: "3. ViT Segmentation"
+            href: vision-transformer-segmentation.ipynb
+          - text: "4. ViT from Scratch"
             href: vision-transformer-scratch.ipynb
+          - text: "5. Masked Dataset & Autoencoder"
+            href: masked-dataset.ipynb
   page-footer:
     center: "Built with Quarto"
 
