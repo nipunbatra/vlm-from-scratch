@@ -18,6 +18,7 @@ This series of notebooks takes you on a journey from using Vision Transformers t
 **Start here!** Learn how to use a pre-trained Vision Transformer for image classification.
 
 **Topics:**
+
 - Loading and using pre-trained ViT models (timm library)
 - Understanding model architecture (patches, embeddings, attention heads)
 - Fine-tuning ViT on CIFAR-10
@@ -33,6 +34,7 @@ This series of notebooks takes you on a journey from using Vision Transformers t
 Build a custom synthetic dataset for segmentation tasks.
 
 **Topics:**
+
 - Creating programmatic datasets with shapes
 - Generating image-mask pairs
 - Saving and loading datasets from disk
@@ -48,6 +50,7 @@ Build a custom synthetic dataset for segmentation tasks.
 Adapt Vision Transformers for pixel-level segmentation tasks.
 
 **Topics:**
+
 - Modifying ViT for dense prediction (segmentation)
 - Building decoder heads for patch-to-pixel upsampling
 - Training on custom segmentation datasets
@@ -63,6 +66,7 @@ Adapt Vision Transformers for pixel-level segmentation tasks.
 Build a complete Vision Transformer from the ground up in PyTorch.
 
 **Topics:**
+
 - Implementing patch embedding from scratch
 - Building self-attention mechanisms (single-head and multi-head)
 - Adding residual connections and layer normalization
@@ -79,6 +83,7 @@ Build a complete Vision Transformer from the ground up in PyTorch.
 **Coming next: MAE (Masked Autoencoder)** - Prepare for self-supervised pre-training.
 
 **Topics:**
+
 - Creating masked image datasets (75% masking)
 - Building convolutional autoencoders
 - Skip connections (U-Net style)
@@ -103,7 +108,7 @@ All notebooks require:
 Install dependencies:
 
 ```bash
-pip install torch torchvision timm matplotlib
+uv pip install torch torchvision timm matplotlib
 ```
 
 ## About
